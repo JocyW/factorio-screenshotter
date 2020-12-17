@@ -7,9 +7,9 @@
     "x": 3000,
     "y": 4000
   },
-  "blockSize": 341,
   "sleepTime": 90000,
   "screenshotSize": 16368,
   "zoomFactor": 1.5,
+  "blockSize": 341,
   "chatOpenChar": "{Numpad5}"
 }

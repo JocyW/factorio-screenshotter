@@ -34,14 +34,14 @@ Numpad0::
         Sleep Sleeptime
 
 
-        if(CurrX < endX){
-            CurrX := currX + BlockSize
-        } else {
+        if(CurrX > endX - (Blocksize / 2)){
             CurrX := StartX
             CurrY := CurrY + BlockSize
+        } else {
+            CurrX := currX + BlockSize
         }
 
-        if(Curr Y > EndY){
+        if(Curr Y > EndY - (Blocksize / 2)){
             MsgBox The screenshots were taken successfully
             break
         }
